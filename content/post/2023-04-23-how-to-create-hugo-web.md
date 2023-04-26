@@ -16,7 +16,7 @@ tags: ["Hugo"]
 - Hugo
     - Hugo 是用 Go 寫成的一個快速架站 Framework ，能快速建立一個靜態網站
 - beautifulhugo
-    - beatifulhugo 是 Hugo 的一個外觀主題，至於為什麼會選這個？其實沒什麼特別的理由，只是因為這主題在搜尋的第一頁，然後我覺得看起來最順眼
+    - beatifulhugo 是 Hugo 的一個外觀主題，至於為什麼會選這個？其實沒什麼特別的理由，只是因為這主題在搜尋的第一頁，然後我比較喜歡它的 Tag 頁能直接展開列出文章
 
 <!--more-->
 {{< line_break >}}

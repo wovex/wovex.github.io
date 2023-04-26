@@ -9,7 +9,7 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+googleAnalytics = "G-HMK0LETB87"
 
 [languages.zh-TW]
   languageCode = "zh-TW"

@@ -1,7 +1,7 @@
 baseurl = "https://wovex.github.io"
 DefaultContentLanguage = "zh-TW"
 title = "Ajing's Notes"
-theme = "beautifulhugo"
+theme = ["hugo-notice", "beautifulhugo"]
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true

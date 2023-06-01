@@ -21,7 +21,7 @@ googleAnalytics = "G-HMK0LETB87"
 
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  homeTitle = "Ajing's Notes" # Set a different text for the header on the home page
   subtitle = "free style"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions

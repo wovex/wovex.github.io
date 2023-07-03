@@ -1,5 +1,5 @@
 ---
-title: 資料庫的 Trasaction 與 ACID
+title: 資料庫的 Trasaction Isolation Level 與 ACID
 subtitle: 
 date: 2023-04-27 12:00:00
 tags: ["Fundamentals of Database Engineering"]

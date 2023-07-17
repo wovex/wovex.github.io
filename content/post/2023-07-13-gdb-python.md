@@ -1,5 +1,5 @@
 ---
-title: 試使用 gdb 來查看卡住的 python 程式
+title: 試使用 gdb 來查看卡住的 Python 程式
 subtitle: 
 date: 2023-07-13 12:00:00
 tags: ["Python"]

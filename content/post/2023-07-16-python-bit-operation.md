@@ -68,7 +68,7 @@ struct.pack("B", 12)   # 1 byte，0000 1100 = \x0c
 struct.pack(">i", 12)   # 4 byte，big-endian，\x00\x00\x00\x0c
 struct.pack("<i", 12)   # 4 byte，little-endian，\x0c\x00\x00\x00
 
-struct.pack("<Bi", 12, 12)   # 5 byte, big-endian, \x0c\x00\x00\x00\x0c'
+struct.pack(">Bi", 12, 12)   # 5 byte, big-endian, \x0c\x00\x00\x00\x0c'
 
 struct.pack("B", 12) + struct.pack(">i", 12)  # \x0c\x00\x00\x00\x0c
 ```
@@ -120,6 +120,20 @@ x.append(3)  # \x01\x02\x03
 
 bytearray(b'\x01') + bytearray(b'\x02')  # bytearray(b'\x01\x02')
 ```
+
+{{< line_break >}}
+# 從 byte 到數值
+{{< line_break >}}
+
+## 使用 struct.unpack(format, buffer)
+{{< line_break >}}
+
+```python
+struct.unpack('B', b'\x0c')   # tuple (12,)
+
+a, b = struct.unpack('>Bi', b'\x0c\x00\x00\x00\x0c')  # a=12, b=12
+```
+
 
 
 {{< line_break >}}

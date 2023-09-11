@@ -87,7 +87,7 @@ class C(Sequence):                      # Direct inheritance
 
 Youtube("url").streams 返回的是 StreamQuery 類型
 
-StreamQuery 是用來 query media stream 用的介面，它將 fmt_streams 封裝起來，並使用流式接口讓我們能方便操作 fmt_streams，它提供像是 filter、sort 等方法讓我們能過濾不需要的 fmt_streams 和進行排序等
+StreamQuery 是用來 query media stream 用的介面，它將 fmt_streams 封裝起來，並使用流式接口作法讓我們能方便操作 fmt_streams，它提供像是 filter、sort 等方法讓我們能過濾不需要的 fmt_streams 和進行排序等
 
 fmt_streams 是 Stream 物件串列，一個 Stream 物件代表一種型式的影像流，這裡的型式像是編碼不同或解析度不同等
 
@@ -140,7 +140,7 @@ class Stream:
 ```
 {{< line_break >}}
 
-我們來看看 Stream 的 download 方法
+Stream 的 download 方法
 
 ```python
 def download(
@@ -154,7 +154,7 @@ def download(
     ) -> str:
 ```
 
-底層會打 GET API 帶 Range=bytes={start}-{stop_pos} header 取得影片部分資料，分段下載並輸出檔案
+底層會打 HTTP GET API 帶 Range=bytes={start}-{stop_pos} header 取得影片部分資料，分段下載並輸出成檔案
 
 
 {{< line_break >}}

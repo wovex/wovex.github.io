@@ -262,7 +262,7 @@ def _checkpid(self):
 # class Connection 建立連線
 {{< line_break >}}
 
-這裡我們來看看 py-redis 如何建立連線
+這裡我們來看看 redis-py 如何建立連線
 
 最底層的 socket TCP 連線是寫在 Connection 類的 _connect() 函數
 
@@ -314,7 +314,7 @@ def _connect(self):
 # class Retry 與 class Backoff
 {{< line_break >}}
 
-py-redis 將 retry 機制包裝成一個 Retry 類
+redis-py 將 retry 機制包裝成一個 Retry 類
 
 
 Retry 的初始化要定義 backoff 重試間隔和 retries 重試上限次數
@@ -394,7 +394,7 @@ class ExponentialBackoff(AbstractBackoff):
 # 結論
 {{< line_break >}}
 
-從 py-redis 源碼，我們學習到
+從 redis-py 源碼，我們學習到
 - ConnectionPool 連線管理
 - Mixin
 - typing.Protocol

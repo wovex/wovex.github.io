@@ -62,3 +62,14 @@ tags: ["其他"]
 
 {{< line_break >}}
 
+
+7. 技術文章的彙整地：
+
+[閱坊](https://www.readfog.com/)
+
+
+[Hackernoon](https://hackernoon.com/)
+
+
+{{< line_break >}}
+

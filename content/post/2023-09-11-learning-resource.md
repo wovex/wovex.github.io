@@ -73,3 +73,15 @@ tags: ["其他"]
 
 {{< line_break >}}
 
+
+8. Conferences 錄影：
+
+[AWS Events](https://www.youtube.com/@AWSEventsChannel)
+
+[NDC Conference](https://www.youtube.com/@NDC)
+
+[GOTO Conference](https://www.youtube.com/@GOTO-)
+
+
+{{< line_break >}}
+
